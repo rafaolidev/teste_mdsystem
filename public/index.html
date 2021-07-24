@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Home Page Teste Mdsystem</title>
+</head>
+
+<body>
+    <div class="mainMenuContainer">
+        <div class="menuContainer">
+            <div class="logoMockup">
+                <div class="logoStick">
+                </div>
+                <span class="logo">Logo</span>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="">Sobre Nós</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="menuMobile">
+        <div class="menuMobileContainer">
+            <div class="logoMockupMobile">
+                <div class="logoStick">
+                </div>
+                <span class="logo">Logo</span>
+            </div>
+            <div class="menuHamburguer">
+                <div class="hamburguerLinha"></div>
+                <div class="hamburguerLinha"></div>
+                <div class="hamburguerLinha"></div>
+            </div>
+        </div>
+    </div>
+    <section class="centerContent">
+        <h1 class="heroTittle">
+            Olá, Nós somos a Mdsystem web!
+        </h1>
+        <h3 class="heroSubtitle">
+            Damos vida aos Seus Negócios digitais.
+        </h3>
+    </section>
+    <section class="aboutUs">
+        <div class="aboutUsContainer">
+            <div class="aboutUsTittleContainer">
+                <h3 class="aboutUsTittle">SOBRE NÓS</h3>
+                <div class="redLine"></div>
+            </div>
+            <div class="nav-container">
+                <span class="dot" onclick="currentSlide(1)">Missão</span>
+                <span class="dot" onclick="currentSlide(2)">Visão</span>
+                <span class="dot" onclick="currentSlide(3)">Valores</span>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="text" id="text">placeholder text1</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="text" id="text2"></div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="text" id="text3">placeholder text3</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services">
+        <div class="servicesUsTittleContainer">
+            <h3 class="servicesTittle">SERVIÇOS</h3>
+            <div class="redLine"></div>
+        </div>
+        <div class="slideshow-container2">
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <div class="mySlides2 fade ">
+                <div class="serviceTitleWraper">
+                    <span class="serviceTitle"></span>
+                    <span class="text2 service"></span>
+                </div>
+            </div>
+            <div class="mySlides2 fade">
+                <div class="serviceTitleWraper">
+                    <span class="serviceTitle2"></span>
+                    <span class="text2 service2"></span>
+                </div>
+            </div>
+            <div class="mySlides2 fade">
+                <div class="serviceTitleWraper">
+                    <span class="serviceTitle3"></span>
+                    <span class="text2 service3"></span>
+                </div>
+            </div>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </section>
+</body>
+<script src="assets/js/scripts.js"></script>
+<script src="assets/js/cosumo.js"></script>
+
+</html>
